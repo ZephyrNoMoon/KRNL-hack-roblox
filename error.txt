@@ -1,0 +1,11 @@
+Message: Impossible de terminer l’opération, car le fichier contient un virus ou un logiciel potentiellement indésirable.
+
+StackTrace:    à System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   à System.IO.File.InternalCopy(String sourceFileName, String destFileName, Boolean overwrite, Boolean checkHost)
+   à System.IO.FileInfo.CopyTo(String destFileName, Boolean overwrite)
+   à krnlss.Program.Main()
+Source: mscorlib
+TargetSite: Void WinIOError(Int32, System.String)
+HResult: -2147024671
+HelpLink: 
+Values: [ System.Collections.ListDictionaryInternal+NodeKeyValueCollection ]
